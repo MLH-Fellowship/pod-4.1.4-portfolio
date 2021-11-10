@@ -1,0 +1,31 @@
+<!-- <script>
+  alert("HELLO");
+  // console.log(site);
+  let i = 10;
+</script> -->
+
+<div class="leaderboard">
+  <h2 class="pb-md-4 pb-2">Leaderboard</h2>
+  <table class="table">
+    <thead class="head-blue">
+      <tr>
+        <th scope="col" class="pl-4">S.No.</th>
+        <th scope="col">Fellow</th>
+        <th scope="col">No. of PRs</th>
+      </tr>
+    </thead>
+    <tbody>
+      {% assign itemSort = site.data.leaderboard | sort: "PRs" | reverse %} {%
+      assign createdIndex = 1 %} {% for item in itemSort %}
+
+      <tr>
+        <th scope="row" class="pl-4">{{createdIndex}}</th>
+        <td>{{item.Fellow}}</td>
+        <td>{{item.PRs}}</td>
+        {% assign createdIndex = createdIndex | plus:1 %}
+      </tr>
+
+      {% endfor %}
+    </tbody>
+  </table>
+</div>
