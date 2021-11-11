@@ -1,0 +1,36 @@
+---
+title: Fellow Details
+layout: page
+---
+<script>
+    function getFellowName() {
+        var pageUrl = window.location.search.substring(1);
+        var urlVars = pageUrl.split('&');
+        var fellowParam = urlVars[0].split('=');
+        if(fellowParam[0] == "fellow") {
+            return fellowParam[1];
+        }
+    }
+    var fellowName = getFellowName();
+    console.log(fellowName);
+    var x1 = "";
+    var x2 = "";
+</script>
+
+<div>
+    {% for item in site.data.fellows %}
+    <script>
+        x1 = "{{ item.name }}";
+        if(x1==fellowName){
+            console.log(x1);
+            x2 = x1;
+        }
+    </script>
+    {% endfor %}
+</div>
+
+<h2>Hello I am <p id="title"></p></h2>
+
+<script>
+    document.getElementById("title").innerHTML = x2;
+</script>
