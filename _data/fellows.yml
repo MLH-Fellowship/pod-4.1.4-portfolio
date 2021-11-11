@@ -1,3 +1,15 @@
+- name: Noah
+  img: noah.png
+  location: San Jose, United States
+  linkedin: "https://www.linkedin.com/in/noahcardoza/"
+  github: "https://github.com/NoahCardoza"
+  resume: "#"
+  twitter: "#"
+  description: ex- Open-source/Externship Fellow | Freelance Full-stack Dev | S/E Student
+  university: De Anza College
+  interests_outside_tech: Drumming and Cycling
+  fav_programming_language: Python, JavaScript
+
 - name: Shravani
   img: shravani.jpg
   location: Pune, Maharashtra, India
