@@ -1,25 +1,66 @@
+<script>
+
+    const URL_FOR_PRS = "https://api.github.com/repos/MLH-Fellowship/pod-4.1.4-portfolio/pulls?state=";
+    let myData = [];
+    {% for item in site.data.leaderboard %}
+      myData.push({
+        github_username: "{{item.github-username}}",
+        fellow: "{{item.fellow}}",
+        prs: 0,
+        open: 0
+      })
+    {% endfor %}
+
+  const getNumberPrsForEachFellow = (value1, value2) => {
+    for(let i=0; i<myData.length; i++){
+      const item = myData[i];
+      const PRsbyFellow = value1.filter((pr) => pr.user.login==item.github_username);
+      const PRsbyFellowOpened = value2.filter((pr) => pr.user.login==item.github_username);
+
+      item.prs = PRsbyFellow.length;
+      item.open = PRsbyFellowOpened.length;
+    }
+
+    myData = myData.sort((a,b) => (a.prs == b.prs) ? ((a.open == b.open)? (((a.fellow > b.fellow) ? 1 : ((b.fellow > a.fellow) ? -1 : 0))) : ((a.open < b.open) ? 1 : ((b.open < a.open) ? -1 : 0))) : ((a.prs < b.prs) ? 1 : ((b.prs < a.prs) ? -1 : 0)));
+
+    let innerDATA=``;
+    for(let i=0; i< myData.length; i++)
+    {
+      innerDATA+=`<tr>
+        <th scope="row" class="pl-4">${i+1}</th>
+        <td>${myData[i].fellow}</td>
+        {% assign PRS = item.prs %}
+        <td>${myData[i].prs}</td>
+        <td class="open">${myData[i].open}</td>
+      </tr>`;
+    }
+
+    document.getElementById("tabledata").innerHTML= innerDATA;
+
+  }
+  const fetchingDATA = async (url1, url2) => {
+    const response1 = await fetch(url1);
+    const response2 = await fetch(url2);
+    let data1 = await response1.json();
+    let data2 = await response2.json();
+    console.log(data1);
+    getNumberPrsForEachFellow(data1, data2);
+  }
+
+  fetchingDATA(`${URL_FOR_PRS}closed`, `${URL_FOR_PRS}open`);
+</script>
+
 <div class="leaderboard">
   <h2 class="pb-md-4 pb-2">Leaderboard</h2>
   <table class="table">
     <thead class="head-blue">
       <tr>
         <th scope="col" class="pl-4">S.No.</th>
-        <th scope="col">fellow</th>
-        <th scope="col">No. of PRs</th>
+        <th scope="col">Fellow</th>
+        <th scope="col"><span class="open">Merged</span>PRs</th>
+        <th scope="col" class="open">Opened PRs</th>
       </tr>
     </thead>
-    <tbody>
-      {% assign itemSort = site.data.leaderboard | sort: "PRs" | reverse %} {%
-      assign createdIndex = 1 %} {% for item in itemSort %}
-
-      <tr>
-        <th scope="row" class="pl-4">{{createdIndex}}</th>
-        <td>{{item.fellow}}</td>
-        <td>{{item.prs}}</td>
-        {% assign createdIndex = createdIndex | plus:1 %}
-      </tr>
-
-      {% endfor %}
-    </tbody>
+    <tbody id="tabledata"></tbody>
   </table>
 </div>
