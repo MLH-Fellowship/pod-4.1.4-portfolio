@@ -1,23 +1,155 @@
-- name: Will
-  img: logo.jpg
-  location: London, UK
+- name: Noah
+  img: noah.png
+  location: San Jose, United States
+  linkedin: "https://www.linkedin.com/in/noahcardoza/"
+  github: "https://github.com/NoahCardoza"
+  resume: "#"
+  twitter: "#"
+  description: ex- Open-source/Externship Fellow | Freelance Full-stack Dev | S/E Student
+  university: De Anza College
+  interests_outside_tech: Drumming and Cycling
+  fav_programming_language: Python, JavaScript
 
-- name: Amanda
-  img: amanda.jpg
-  location: New York City, USA
+- name: Shravani
+  img: shravani.jpg
+  location: Pune, Maharashtra, India
+  linkedin: "https://www.linkedin.com/in/shravani-chavan-4a6a48166/"
+  github: "https://github.com/shravani05"
+  resume: "#"
+  twitter: "https://twitter.com/ShravaniChavan_"
+  description: Microsoft Engage’21 | MLH Prep Fellow | Former Research Intern at NTU | Flipkart's GWC 3.0 Scholar
+  university: Cummins College of Engineering for Women, Pune
+  interests_outside_tech: Music, Travel
+  fav_programming_language: C++, JavaScript
 
-- name: Aaron
-  img: aaron.jpg
-  location: London, UK
+- name: Pratyush
+  img: pratyush.jpg
+  location: West Bengal, India
+  linkedin: "https://www.linkedin.com/in/pratyush1606/"
+  github: "https://github.com/Pratyush1606"
+  resume: "#"
+  twitter: "#"
+  description: Incoming SWE Intern @D. E. Shaw | MLH Prep Fellow | Former Backend Engineering Intern @FactWise
+  university: IIT Kharagpur
+  interests_outside_tech: Travelling, Badminton
+  fav_programming_language: Python
 
-- name: Swift
-  img: swift.jpg
-  location: New York City, USA
+- name: Helen
+  img: helen.jpg
+  location: Northfield, Minnesota, United States
+  linkedin: "https://www.linkedin.com/in/zhonghui-helen-du/"
+  github: "https://github.com/helenduz"
+  resume: "#"
+  twitter: "https://twitter.com/dhwaj_gupta"
+  description: Physics & CS Student | Data Engineering Intern | MLH Prep Fellow
+  university: Carleton College
+  interests_outside_tech: Choir & A cappella
+  fav_programming_language: Python
+
+- name: Dinu
+  img: dinu.jpg
+  location: Budapest, Hungary
+  linkedin: "https://www.linkedin.com/in/dinu-botan/"
+  github: "https://github.com/DinuBotan"
+  resume: "#"
+  twitter: "https://twitter.com/dhwaj_gupta"
+  description: CS Student | Former Software Developer Intern | MLH Prep Fellow
+  university: Budapest University of Technology and Economics
+  interests_outside_tech: Volleyball, Cycling, Hiking
+  fav_programming_language: Java
+
+- name: Dhanashree
+  img: dhanashree.jpg
+  location: Pune, Maharashtra, India
+  linkedin: "https://www.linkedin.com/in/dhanashree-godase-9513861a8/"
+  github: "https://github.com/dans77777"
+  resume: "#"
+  twitter: "https://twitter.com/Dhanashree_7"
+  description: ex- Backend developer Intern | ex- Software developer Intern | AWS certified
+  university: MIT WPU
+  interests_outside_tech: painting, cooking
+  fav_programming_language: C++, SQL
+
+- name: Sargam
+  img: sargam.jpg
+  location: Uttar Pradesh, India
+  linkedin: "https://www.linkedin.com/in/sargam-agarwal-9320791a5/"
+  github: "https://github.com/Sargam-Agarwal"
+  resume: "https://docs.google.com/document/d/124B1D2hr1t8FFtLClVLKU5UhOTwyZya90IYM73i-vaQ/edit?usp=sharing"
+  twitter: "https://mobile.twitter.com/sargamagarwal2"
+  description: Incoming Summer Analyst @Goldman Sachs | Flutter Developer
+  university: Banasthali Vidyapith
+  interests_outside_tech: Badminton, Reading Books
+  fav_programming_language: C++, Java
+
+- name: Rajat
+  img: rajat.jpg
+  location: Uttar Pradesh, India
+  linkedin: "https://www.linkedin.com/in/rajat2502/"
+  github: "http://github.com/rajat2502"
+  resume: "https://rajat2502.github.io/Resume/"
+  twitter: "https://twitter.com/rajatverma2502"
+  description: Software Engineering Intern @headout | SIH'20 && InOut 7.0 Winner
+  university: JSS Noida
+  interests_outside_tech: Reading, Badminton, Music
+  fav_programming_language: JavaScript
 
 - name: Bhavika
-  img: bg.jpg
+  img: bhavika.jpg
   location: Rajasthan, India
-  linkedin: https://www.linkedin.com/in/bhavika-gianey-2776511a0/
-  github: https://github.com/Bhavika-Gianey
-  resume:
-  twitter: https://twitter.com/BhavikaGianey
+  linkedin: "https://www.linkedin.com/in/bhavika-gianey-2776511a0/"
+  github: "https://github.com/Bhavika-Gianey"
+  resume: "#"
+  twitter: "https://twitter.com/BhavikaGianey"
+  description: Incoming kites Intern @ITC|Software Engineering Intern @GlueLabs|Microsoft Engage'21|MLH Prep Fellow
+  university: IIT (BHU) Varanasi
+  interests_outside_tech: Reading,Travelling,Swimming
+  fav_programming_language: C++, JavaScript,Python
+
+- name: Osakpolor
+  img: osakpolor.jpeg
+  location: Lagos, Nigeria
+  linkedin: "https://www.linkedin.com/in/obasekiosa"
+  github: "https://www.github.com/obasekiosa"
+  resume: "https://docs.google.com/document/d/1jkIfx3GR0uOWp58_aL1FQMx8x2kRTswFxkt9kGRwX_g/edit?usp=sharing"
+  twitter: "https://www.twitter.com/obasekiosa"
+  description: MLH Prep Fellow | Runner | Climber | Writer | Software Engineering Intern
+  university: University of Lagos
+  interests_outside_tech:
+  fav_programming_language: Java, pyhton, c++, Go
+
+- name: Drishti
+  img: drishti.jpg
+  location: Pune, India
+  linkedin: "https://www.linkedin.com/in/drishti-peshwani"
+  github: "https://github.com/drishtipeshwani"
+  resume: "#"
+  twitter: "https://twitter.com/Drishti0901"
+  description: Incoming SWE Intern @Microsoft | Uber She++ '21 | LinkedIn CoachIn'21 | Frontend Developer
+  university: IIT Madras
+  interests_outside_tech: Dance, Travelling, Reading
+  fav_programming_language: Javascript
+
+- name: Ekjot
+  img: ekjot.jpg
+  location: New Delhi, India
+  linkedin: "https://www.linkedin.com/in/ekjot-kaur-3211181a1/"
+  github: "https://github.com/EkjotKaur"
+  resume: "#"
+  twitter: "https://twitter.com/EkjotKaurK13"
+  description: MLH Prep Fellow | Full Stack Developer | Supervisor @GWOC'21 | Freelancer | Microsoft Engage'21
+  university: MSIT, Janakpuri
+  interests_outside_tech: Badminton, Table Tennis
+  fav_programming_language: C++, JavaScript
+
+- name: Dhwaj
+  img: dhwaj.jpg
+  location: New Delhi, India
+  linkedin: "https://www.linkedin.com/in/dhwaj-gupta/"
+  github: "https://github.com/dhwaj1902"
+  resume: "#"
+  twitter: "https://twitter.com/dhwaj_gupta"
+  description: Full Stack Developer | MLH Prep Fellow | App Developer | MERN Stack Developer
+  university: IIT Roorkee
+  interests_outside_tech: Music, Video Gaming
+  fav_programming_language: Javascript
