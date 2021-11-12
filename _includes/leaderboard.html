@@ -28,10 +28,13 @@
     {
       innerDATA+=`<tr>
         <th scope="row" class="pl-4">${i+1}</th>
-        <td>${myData[i].fellow}</td>
-        {% assign PRS = item.prs %}
-        <td>${myData[i].prs}</td>
-        <td class="open">${myData[i].open}</td>
+          <td class="leaderboardName">
+            <a  href="https://github.com/MLH-Fellowship/pod-4.1.4-portfolio/pulls/${myData[i].github_username}">
+              ${myData[i].fellow}
+              </a>
+          </td>
+          <td>${myData[i].prs}</td>
+          <td class="open">${myData[i].open}</td>
       </tr>`;
     }
 
