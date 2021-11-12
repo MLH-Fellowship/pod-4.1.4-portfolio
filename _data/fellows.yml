@@ -1,3 +1,15 @@
+- name: Noah
+  img: noah.png
+  location: San Jose, United States
+  linkedin: "https://www.linkedin.com/in/noahcardoza/"
+  github: "https://github.com/NoahCardoza"
+  resume: "#"
+  twitter: "#"
+  description: ex- Open-source/Externship Fellow | Freelance Full-stack Dev | S/E Student
+  university: De Anza College
+  interests_outside_tech: Drumming and Cycling
+  fav_programming_language: Python, JavaScript
+
 - name: Shravani
   img: shravani.jpg
   location: Pune, Maharashtra, India
@@ -95,14 +107,14 @@
   fav_programming_language: C++, JavaScript,Python
 
 - name: Osakpolor
-  img: osakpolor.jpg
+  img: osakpolor.jpeg
   location: Lagos, Nigeria
   linkedin: "https://www.linkedin.com/in/obasekiosa"
   github: "https://www.github.com/obasekiosa"
   resume: "https://docs.google.com/document/d/1jkIfx3GR0uOWp58_aL1FQMx8x2kRTswFxkt9kGRwX_g/edit?usp=sharing"
   twitter: "https://www.twitter.com/obasekiosa"
-  description:
-  university: 
+  description: MLH Prep Fellow | Runner | Climber | Writer | Software Engineering Intern
+  university: University of Lagos
   interests_outside_tech: 
   fav_programming_language: Java, pyhton, c++, Go
 
