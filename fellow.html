@@ -2,6 +2,9 @@
 title: Fellow Details
 layout: page
 ---
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
 <script>
     function getFellowName() {
         var pageUrl = window.location.search.substring(1);
@@ -14,7 +17,16 @@ layout: page
     var fellowName = getFellowName();
     console.log(fellowName);
     var x1 = "";
-    var x2 = "";
+    var name = "";
+    var img = "";
+    var loc = "";
+    var linkedin = ""
+    var github = ""
+    var twitter = ""
+    var description = ""
+    var university = ""
+    var interests_outside_tech = ""
+    var fav_programming_language = ""
 </script>
 
 <div>
@@ -22,15 +34,58 @@ layout: page
     <script>
         x1 = "{{ item.name }}";
         if(x1==fellowName){
-            console.log(x1);
-            x2 = x1;
+            console.log(x1.name);
+            name = x1;
+            img = "{{ item.img }}";
+            loc = "{{ item.location }}";
+            description = "{{ item.description }}";
+            fav_programming_language = "{{ item.fav_programming_language }}";
+            interests_outside_tech = "{{ item.interests_outside_tech }}";
+            university =  "{{ item.university }}";
+            linkedin = "{{ item.linkedin }}";
+            twitter = "{{ item.twitter }}";
+            github = "{{ item.github }}";
+
         }
     </script>
     {% endfor %}
 </div>
 
-<h2>Hello I am <p id="title"></p></h2>
+<div class="details">
+    <div class="content">
+        <div class = "profile-img">
+            <img id = "img" src="">
+        </div>
+        <div class="info">
+            <h1 id="name"></h1>
+            <h3 id="loc"></h3><br/>
+            <h5 id="description"></h5><br/><br/>
+            <img src="https://qph.fs.quoracdn.net/main-qimg-35c3f37da759f447d80eb45dfd15de04"/><h5 id="fav_prog_lang"></h5><br/><br/>
+            <img src="https://cdn-icons-png.flaticon.com/512/2041/2041146.png"/><h5 id="interests"></h5></h5><br/><br/>
+            <img src="https://static.thenounproject.com/png/106794-200.png"/><h5 id="university"></h5><br/>
+            <div>
+                <a href="#" id = "linkedin" class="fa fa-linkedin" target="_blank" rel="noopener noreferrer"></a>
+                <a href="#" id = "twitter" class="fa fa-twitter" target="_blank" rel="noopener noreferrer"></a>
+                <a href="#" id = "github" class="fa fa-github" target="_blank" rel="noopener noreferrer"></a>
+            </div>
+        </div>
+        
+        
+    </div>
+</div>
+
+
 
 <script>
-    document.getElementById("title").innerHTML = x2;
+    console.log(img)
+    document.getElementById("name").innerHTML = name;
+    document.getElementById("img").src = "/assets/img/" + img;
+    document.getElementById("loc").innerHTML = loc;
+    document.getElementById("description").innerHTML = description;
+    document.getElementById("fav_prog_lang").innerHTML = fav_programming_language;
+    document.getElementById("interests").innerHTML = interests_outside_tech;
+    document.getElementById("university").innerHTML = university;
+    document.getElementById("linkedin").href = linkedin;
+    document.getElementById("twitter").href = twitter;
+    document.getElementById("github").href = github;
 </script>
