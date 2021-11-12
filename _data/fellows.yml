@@ -1,39 +1,23 @@
 - name: Will
   img: logo.jpg
   location: London, UK
-  linkedin: "#"
-  github: "#"
-  resume: "#"
-  twitter: "#"
 
 - name: Amanda
   img: amanda.jpg
   location: New York City, USA
-  linkedin: "#"
-  github: "#"
-  resume: "#"
-  twitter: "#"
 
 - name: Aaron
   img: aaron.jpg
   location: London, UK
-  linkedin: "#"
-  github: "#"
-  resume: "#"
-  twitter: "#"
 
 - name: Swift
   img: swift.jpg
   location: New York City, USA
-  linkedin: "#"
-  github: "#"
-  resume: "#"
-  twitter: "#"
 
 - name: Bhavika
   img: bg.jpg
   location: Rajasthan, India
-  linkedin: "https://www.linkedin.com/in/bhavika-gianey-2776511a0/"
-  github: "https://github.com/Bhavika-Gianey"
-  resume: "#"
-  twitter: "https://twitter.com/BhavikaGianey"
+  linkedin: https://www.linkedin.com/in/bhavika-gianey-2776511a0/
+  github: https://github.com/Bhavika-Gianey
+  resume:
+  twitter: https://twitter.com/BhavikaGianey
