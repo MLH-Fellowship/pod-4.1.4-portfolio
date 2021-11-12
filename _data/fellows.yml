@@ -46,7 +46,7 @@
   interests_outside_tech: Choir & A cappella
   fav_programming_language: Python
 
-- name: Dinu 
+- name: Dinu
   img: dinu.jpg
   location: Budapest, Hungary
   linkedin: "https://www.linkedin.com/in/dinu-botan/"
@@ -150,6 +150,7 @@
   resume: "#"
   twitter: "https://twitter.com/dhwaj_gupta"
   description: Full Stack Developer | MLH Prep Fellow | App Developer | MERN Stack Developer 
+
   university: IIT Roorkee
   interests_outside_tech: Music, Video Gaming
   fav_programming_language: Javascript
