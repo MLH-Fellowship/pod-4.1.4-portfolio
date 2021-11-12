@@ -46,7 +46,6 @@
     const response2 = await fetch(url2);
     let data1 = await response1.json();
     let data2 = await response2.json();
-    console.log(data1);
     getNumberPrsForEachFellow(data1, data2);
   }
 
