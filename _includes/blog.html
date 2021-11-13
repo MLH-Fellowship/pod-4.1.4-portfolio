@@ -1,0 +1,17 @@
+<h2>Blogs</h2>
+<div class="row blog-container">
+    {% for item in site.data.blogs %}
+    {% if item.blog-name %}
+    <a href="/blogs/{{ item.blog-name }}" class="blog-card col-md-4">
+    {% else %}
+    <a>
+    {% endif %}
+      <div class="d-flex justify-content-start align-items-start flex-column">
+          <img src="./assets/img/{{ item.img }}" class="img-fluid" />
+          <p class="title">{{ item.topic }}</p>
+          <p class="author">{{ item.author }}</p>
+      </div>
+    </a>
+    {% endfor %}
+  </div>
+  
