@@ -37,7 +37,7 @@
   interests_outside_tech: Travelling, Badminton
   fav_programming_language: Python
 
-- name: Helen
+- name: Helen 
   img: helen.jpg
   location: Northfield, Minnesota, United States
   cords: [46.369, -94.131]
@@ -84,12 +84,12 @@
   github: "https://github.com/Sargam-Agarwal"
   resume: "https://docs.google.com/document/d/124B1D2hr1t8FFtLClVLKU5UhOTwyZya90IYM73i-vaQ/edit?usp=sharing"
   twitter: "https://mobile.twitter.com/sargamagarwal2"
-  description: Incoming Summer Analyst @Goldman Sachs | Flutter Developer
+  description: Incoming Summer Analyst @Goldman Sachs | Flutter Developer 
   university: Banasthali Vidyapith
   interests_outside_tech: Badminton, Reading Books
-  fav_programming_language: C++, Java
+  fav_programming_language: C++, Java 
 
-- name: Rajat
+- name: Rajat 
   img: rajat.jpg
   location: Uttar Pradesh, India
   cords: [28.9963296, 77.7061915]
@@ -125,10 +125,10 @@
   twitter: "https://www.twitter.com/obasekiosa"
   description: MLH Prep Fellow | Runner | Climber | Writer | Software Engineering Intern
   university: University of Lagos
-  interests_outside_tech:
+  interests_outside_tech: 
   fav_programming_language: Java, pyhton, c++, Go
 
-- name: Drishti
+- name: Drishti 
   img: drishti.jpg
   location: Pune, India
   cords: [19.5214280, 73.8544541]
@@ -136,12 +136,12 @@
   github: "https://github.com/drishtipeshwani"
   resume: "#"
   twitter: "https://twitter.com/Drishti0901"
-  description: Incoming SWE Intern @Microsoft | Uber She++ '21 | LinkedIn CoachIn'21 | Frontend Developer
+  description: Incoming SWE Intern @Microsoft | Uber She++ '21 | LinkedIn CoachIn'21 | Frontend Developer 
   university: IIT Madras
   interests_outside_tech: Dance, Travelling, Reading
   fav_programming_language: Javascript
 
-- name: Ekjot
+- name: Ekjot 
   img: ekjot.jpg
   location: New Delhi, India
   cords: [27.6146, 77.2123]
@@ -154,7 +154,7 @@
   interests_outside_tech: Badminton, Table Tennis
   fav_programming_language: C++, JavaScript
 
-- name: Dhwaj
+- name: Dhwaj 
   img: dhwaj.jpg
   location: New Delhi, India
   cords: [28.6146, 77.2123]
@@ -162,7 +162,8 @@
   github: "https://github.com/dhwaj1902"
   resume: "#"
   twitter: "https://twitter.com/dhwaj_gupta"
-  description: Full Stack Developer | MLH Prep Fellow | App Developer | MERN Stack Developer
+  description: Full Stack Developer | MLH Prep Fellow | App Developer | MERN Stack Developer 
+
   university: IIT Roorkee
   interests_outside_tech: Music, Video Gaming
   fav_programming_language: Javascript

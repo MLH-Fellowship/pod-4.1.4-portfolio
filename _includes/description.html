@@ -1,6 +1,7 @@
 <h2>Meet the Pod</h2>
 <div class="row people d-flex">
   {% for item in site.data.fellows %}
+  <a href="/fellow.html?fellow={{ item.name }}">
   <div class="col-md-4 col-lg-3 item">
     <div class="box" style="background-image: url(./assets/img/{{ item.img }})">
       <div class="cover">
