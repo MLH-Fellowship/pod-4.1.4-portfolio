@@ -1,0 +1,94 @@
+---
+title: Fellow Details
+layout: page
+---
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<script>
+    function getFellowName() {
+        // Function to get the fellow name from the parameter in the url
+        var pageUrl = window.location.search.substring(1);
+        var urlVars = pageUrl.split('&');
+        var fellowParam = urlVars[0].split('=');
+        if(fellowParam[0] == "fellow") {
+            return fellowParam[1];
+        }
+    }
+    var fellowName = getFellowName();
+    var name = "";
+    var img = "";
+    var loc = "";
+    var linkedin = ""
+    var github = ""
+    var twitter = ""
+    var description = ""
+    var university = ""
+    var interests_outside_tech = ""
+    var fav_programming_language = ""
+</script>
+
+<div>
+    {% for item in site.data.fellows %}
+    <script>
+        if("{{ item.name }}"==fellowName){
+            name = "{{ item.name }}";
+            img = "{{ item.img }}";
+            loc = "{{ item.location }}";
+            description = "{{ item.description }}";
+            fav_programming_language = "{{ item.fav_programming_language }}";
+            interests_outside_tech = "{{ item.interests_outside_tech }}";
+            university =  "{{ item.university }}";
+            linkedin = "{{ item.linkedin }}";
+            twitter = "{{ item.twitter }}";
+            github = "{{ item.github }}";
+        }
+    </script>
+    {% endfor %}
+</div>
+
+<div class="details">
+    <div class="content">
+        <div class = "profile-img">
+            <img id = "img" src="">
+        </div>
+        <div class="info">
+            <h1 id="name"></h1>
+            <h3 id="loc"></h3><br/>
+            <h5 id="description"></h5><br/><br/>
+            <img src="https://qph.fs.quoracdn.net/main-qimg-35c3f37da759f447d80eb45dfd15de04"/><h5 id="fav_prog_lang"></h5><br/><br/>
+            <img src="https://cdn-icons-png.flaticon.com/512/2041/2041146.png"/><h5 id="interests"></h5></h5><br/><br/>
+            <img src="https://static.thenounproject.com/png/106794-200.png"/><h5 id="university"></h5><br/>
+            <div>
+                <a href="#" id = "linkedin" class="fa fa-linkedin" target="_blank" rel="noopener noreferrer"></a>
+                <a href="#" id = "twitter" class="fa fa-twitter" target="_blank" rel="noopener noreferrer"></a>
+                <a href="#" id = "github" class="fa fa-github" target="_blank" rel="noopener noreferrer"></a>
+            </div>
+        </div>
+        
+        
+    </div>
+</div>
+
+<script>
+    function showValidHref(url, elementId) {
+        // Function to show the icon of an element only when the url is valid
+        if(url == "#") {
+            document.getElementById(elementId).style.display = "none";
+        }
+        else {
+            document.getElementById(elementId).href = url;
+        }
+    }
+
+    document.getElementById("name").innerHTML = name;
+    document.getElementById("img").src = "/assets/img/" + img;
+    document.getElementById("loc").innerHTML = loc;
+    document.getElementById("description").innerHTML = description;
+    document.getElementById("fav_prog_lang").innerHTML = fav_programming_language;
+    document.getElementById("interests").innerHTML = interests_outside_tech;
+    document.getElementById("university").innerHTML = university;
+    showValidHref(linkedin, "linkedin");
+    showValidHref(twitter, "twitter");
+    showValidHref(github, "github");
+</script>
