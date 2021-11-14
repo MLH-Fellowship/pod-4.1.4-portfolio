@@ -1,6 +1,7 @@
 - name: Noah
   img: noah.png
   location: San Jose, United States
+  cords: [37.3361905, -121.8905830]
   linkedin: "https://www.linkedin.com/in/noahcardoza/"
   github: "https://github.com/NoahCardoza"
   resume: "#"
@@ -13,6 +14,7 @@
 - name: Shravani
   img: shravani.jpg
   location: Pune, Maharashtra, India
+  cords: [18.5214280, 73.8544541]
   linkedin: "https://www.linkedin.com/in/shravani-chavan-4a6a48166/"
   github: "https://github.com/shravani05"
   resume: "#"
@@ -25,6 +27,7 @@
 - name: Pratyush
   img: pratyush.jpg
   location: West Bengal, India
+  cords: [22.3430900, 87.3012875]
   linkedin: "https://www.linkedin.com/in/pratyush1606/"
   github: "https://github.com/Pratyush1606"
   resume: "#"
@@ -37,6 +40,7 @@
 - name: Helen
   img: helen.jpg
   location: Northfield, Minnesota, United States
+  cords: [46.369, -94.131]
   linkedin: "https://www.linkedin.com/in/zhonghui-helen-du/"
   github: "https://github.com/helenduz"
   resume: "#"
@@ -49,6 +53,7 @@
 - name: Dinu
   img: dinu.jpg
   location: Budapest, Hungary
+  cords: [47.4979937, 19.0403594]
   linkedin: "https://www.linkedin.com/in/dinu-botan/"
   github: "https://github.com/DinuBotan"
   resume: "#"
@@ -61,6 +66,7 @@
 - name: Dhanashree
   img: dhanashree.jpg
   location: Pune, Maharashtra, India
+  cords: [18.5214280, 74.8544541]
   linkedin: "https://www.linkedin.com/in/dhanashree-godase-9513861a8/"
   github: "https://github.com/dans77777"
   resume: "#"
@@ -73,6 +79,7 @@
 - name: Sargam
   img: sargam.jpg
   location: Uttar Pradesh, India
+  cords: [26.8381000, 80.9346001]
   linkedin: "https://www.linkedin.com/in/sargam-agarwal-9320791a5/"
   github: "https://github.com/Sargam-Agarwal"
   resume: "https://docs.google.com/document/d/124B1D2hr1t8FFtLClVLKU5UhOTwyZya90IYM73i-vaQ/edit?usp=sharing"
@@ -85,6 +92,7 @@
 - name: Rajat
   img: rajat.jpg
   location: Uttar Pradesh, India
+  cords: [28.9963296, 77.7061915]
   linkedin: "https://www.linkedin.com/in/rajat2502/"
   github: "http://github.com/rajat2502"
   resume: "https://rajat2502.github.io/Resume/"
@@ -97,6 +105,7 @@
 - name: Bhavika
   img: bhavika.jpg
   location: Rajasthan, India
+  cords: [26.4643, 74.6329]
   linkedin: "https://www.linkedin.com/in/bhavika-gianey-2776511a0/"
   github: "https://github.com/Bhavika-Gianey"
   resume: "#"
@@ -109,6 +118,7 @@
 - name: Osakpolor
   img: osakpolor.jpeg
   location: Lagos, Nigeria
+  cords: [6.4550575, 3.3941795]
   linkedin: "https://www.linkedin.com/in/obasekiosa"
   github: "https://www.github.com/obasekiosa"
   resume: "https://docs.google.com/document/d/1jkIfx3GR0uOWp58_aL1FQMx8x2kRTswFxkt9kGRwX_g/edit?usp=sharing"
@@ -121,6 +131,7 @@
 - name: Drishti
   img: drishti.jpg
   location: Pune, India
+  cords: [19.5214280, 73.8544541]
   linkedin: "https://www.linkedin.com/in/drishti-peshwani"
   github: "https://github.com/drishtipeshwani"
   resume: "#"
@@ -133,6 +144,7 @@
 - name: Ekjot
   img: ekjot.jpg
   location: New Delhi, India
+  cords: [27.6146, 77.2123]
   linkedin: "https://www.linkedin.com/in/ekjot-kaur-3211181a1/"
   github: "https://github.com/EkjotKaur"
   resume: "#"
@@ -145,6 +157,7 @@
 - name: Dhwaj
   img: dhwaj.jpg
   location: New Delhi, India
+  cords: [28.6146, 77.2123]
   linkedin: "https://www.linkedin.com/in/dhwaj-gupta/"
   github: "https://github.com/dhwaj1902"
   resume: "#"

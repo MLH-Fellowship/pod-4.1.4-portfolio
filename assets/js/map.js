@@ -13,7 +13,7 @@ var layer = new L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png'
 // add our custom layer to the map object created above
 map.addLayer(layer);
 
-const fellows = [{
+/*const fellows = [{
     name: 'Helen Du',
     location: 'Minnesota, United States',
     cords: [46.369, -94.131]
@@ -74,13 +74,28 @@ const fellows = [{
     location: 'New Delhi, India',
     cords: [28.6146, 77.2123]
 },
-];
+];*/
 
-fellows.forEach((fellow) => {
+// const DATA = {{ site.data | jsonify }};
+
+console.log(DATA);
+
+DATA.fellows.forEach((fellow) => {
+    const marker = L.icon({
+        iconUrl: `/assets/img/${fellow.img}`,
+        iconSize: [50, 50], // size of the icon
+        iconAnchor: [22, 94], // point of the icon which will correspond to marker's location
+        popupAnchor: [-3, -76], // point from which the popup should open relative to the iconAnchor
+        className: 'marker',
+    });
+
     const card = ` 
 <div class="container">
   <h4><b>${fellow.name}</b></h4>
-  ${fellow.location}<br/>
+  ${fellow.description}<br/><br/>
+  ${fellow.location}
 </div>
-`; L.marker(fellow.cords).addTo(map).bindPopup(card);
+`; L.marker(fellow.cords, {
+        icon: marker,
+    }).addTo(map).bindPopup(card);
 });
