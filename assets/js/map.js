@@ -13,10 +13,6 @@ var layer = new L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png'
 // add our custom layer to the map object created above
 map.addLayer(layer);
 
-// const DATA = {{ site.data | jsonify }};
-
-console.log(DATA);
-
 DATA.fellows.forEach((fellow) => {
     const marker = L.icon({
         iconUrl: `/assets/img/${fellow.img}`,
