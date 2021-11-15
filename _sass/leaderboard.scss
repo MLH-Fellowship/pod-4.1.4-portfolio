@@ -29,6 +29,31 @@
   }
 }
 
+.leaderboard.dark {
+  
+  a {
+    color: white;
+  }
+
+  tr:nth-child(2n + 1) {
+    color: white;
+  }
+
+  tr:nth-child(2n) {
+    background-color: grey;
+    color: white;
+  }
+
+  .head-blue {
+      background-color: #1d539f;
+      color: white;
+  }
+
+  .leaderboardName:hover a{
+    color: #1d539f;
+  }
+}
+
 @media only screen and (max-width: 900px) {
   .leaderboard {
     max-width: 100%;
