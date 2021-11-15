@@ -2,7 +2,7 @@
     <div class="row justify-content-center">
         {% for item in site.data.fellows %}
         <div class="col-sm-6 col-lg-2 col-md-3 text-center">
-            <img class="profile-img" src="./assets/img/{{ item.img }}" alt="item.name">
+            <img class="profile-img" src="./assets/img/{{ item.img }}" alt="{{item.name}}">
         </div>
         {% endfor %}
     </div>
