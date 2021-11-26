@@ -29,6 +29,10 @@
   }
 }
 
+.table td, .table th {
+    border-top: 0px solid #dee2e6;
+}
+
 .leaderboard.dark {
   
   table {
@@ -37,10 +41,6 @@
 
   td {
     border-color: #565656;
-  }
-
-  th {
-    border-top: None;
   }
 
   a {
