@@ -3,8 +3,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta property="og:title" content="Personal Portfolio">
-    <meta property="og:description"
-        content="My Personal Portfolio">
+    <meta property="og:description" content="My Personal Portfolio">
     <meta property="og:image" content="./assets/img/social-link.jpg">
     <meta property="og:url" content="{{ page.url }}">
 
@@ -17,8 +16,12 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
         integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
         crossorigin="anonymous"></script>
-    <script src="https://jsxss.com/assets/xss.js"
-        crossorigin="anonymous"></script>
+    <script src="https://jsxss.com/assets/xss.js" crossorigin="anonymous"></script>
+
+    <!-- Including Leaflet API -->
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+        integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+        crossorigin=""></script>
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
@@ -28,6 +31,12 @@
 
     <link lang='sass' rel="stylesheet" href="/assets/css/main.css">
     <link rel='icon' href='/assets/img/favicon.ico' type='image/x-icon' />
+
+    <!-- Leaflet CSS for Map -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+        integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+        crossorigin="" />
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>{{ site.title }}</title>
 </head>

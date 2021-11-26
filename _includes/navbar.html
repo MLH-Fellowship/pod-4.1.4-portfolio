@@ -25,10 +25,16 @@
         for (i = 0; i < elements.length; i++) {
             elements[i].classList.toggle('dark-ctn');
         }
-
+      
         let leaderBoard = document.getElementsByClassName("leaderboard")[0];
         if (leaderBoard !== null) {
             leaderBoard.classList.toggle("dark");
         }
+
+        let imageBoxes = document.getElementsByClassName("box");
+        for (let imageBox of imageBoxes) {
+            imageBox.classList.toggle("dark");
+        };
+
     });
 </script>
