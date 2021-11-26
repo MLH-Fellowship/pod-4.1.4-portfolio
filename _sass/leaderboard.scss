@@ -15,7 +15,7 @@
     }
     .head-blue {
       background-color: #1d539f;
-      color: white;
+      color:  #FFFFFF;;
     }
     tr:nth-child(2n) {
       background-color: rgb(219, 219, 219);
@@ -31,27 +31,30 @@
 
 .leaderboard.dark {
   
-  a {
-    color: white;
+  table {
+    box-shadow: 0px 1px 4px 0px #000000;
   }
 
-  tr:nth-child(2n + 1) {
-    color: white;
+  td {
+    border-color: #565656;
+  }
+
+  th {
+    border-top: None;
+  }
+
+  a {
+    color: #FFFFFF;
+  }
+
+  tr {
+    color: #FFFFFF;
   }
 
   tr:nth-child(2n) {
-    background-color: grey;
-    color: white;
+    background-color: #808080;
   }
 
-  .head-blue {
-      background-color: #1d539f;
-      color: white;
-  }
-
-  .leaderboardName:hover a{
-    color: #1d539f;
-  }
 }
 
 @media only screen and (max-width: 900px) {
