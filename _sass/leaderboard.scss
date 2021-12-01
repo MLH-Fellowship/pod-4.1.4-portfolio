@@ -15,7 +15,7 @@
     }
     .head-blue {
       background-color: #1d539f;
-      color: white;
+      color:  #FFFFFF;;
     }
     tr:nth-child(2n) {
       background-color: rgb(219, 219, 219);
@@ -27,6 +27,34 @@
       color: #1d539f;
     }
   }
+}
+
+.table td, .table th {
+    border-top: 0px solid #dee2e6;
+}
+
+.leaderboard.dark {
+  
+  table {
+    box-shadow: 0px 1px 4px 0px #000000;
+  }
+
+  td {
+    border-color: #565656;
+  }
+
+  a {
+    color: #FFFFFF;
+  }
+
+  tr {
+    color: #FFFFFF;
+  }
+
+  tr:nth-child(2n) {
+    background-color: #808080;
+  }
+
 }
 
 @media only screen and (max-width: 900px) {
