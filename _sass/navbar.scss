@@ -1,9 +1,20 @@
+// nav styles
+
 .nav-bar {
-  width: 100%;
-  background-color: #133667;
-  font-family: 'Poppins', serif;
-  font-weight: 700 !important;
-  padding-top: 10px;
+    width: 100%;
+    background-color: #133667;
+    font-family: "Poppins", serif;
+    font-weight: 700 !important;
+    padding-top: 10px;
+    font-size: 1.5rem;
+}
+
+.nav-bar-dropdown {
+    background-color: #133667;
+}
+
+.nav-bar-dropdown-item {
+    color: #ffffff;
 }
 
 .nav-content .logo-touch-target {
